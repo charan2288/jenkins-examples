@@ -1,0 +1,3 @@
+node {
+build job: 'pet clinic-build', parameters: [string(name: 'Choice test', value: 'install')]
+}
